@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<table class="table mt-5 table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Students Quantity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for course in courses %}
+         <tr>
+            <td style="text-align: center;">{{ course.title }}</td>
+            <td style="text-align: center;">{{ course.category }}</td>
+            <td style="text-align: center;">{{ course.price }}</td>
+            <td style="text-align: center;">{{ course.students_qty }}</td>
+            <td style="text-align: center;"><button class="btn-dark">Buy</button></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}
