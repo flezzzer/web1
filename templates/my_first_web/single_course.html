@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>{{ course.title }}</title>
+    {% endblock %}
+</head>
+
+<body>
+    {% block content %}
+        <h1 class="mt-5">{{ course.title }} </h1>
+        <h2>{{ course.category }}</h2>
+        <p class="mt-5"> - Count of students: {{ course.students_qty}}</p>
+        <p> - Count of reviews: {{ course.reviews_qty }}</p>
+        <p> - Date of creation: {{ course.created_at }}</p>
+        <button class="btn btn-dark">Buy</button>
+    {% endblock %}
+</body>
+</html>

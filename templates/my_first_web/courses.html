@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block title %}
+    <title>All courses</title>
+{% endblock %}
 {% block content %}
 <table class="table mt-5 table-bordered table-striped table-hover">
     <thead class="table-dark">
@@ -13,11 +16,11 @@
     <tbody>
         {% for course in courses %}
          <tr>
-            <td style="text-align: center;">{{ course.title }}</td>
-            <td style="text-align: center;">{{ course.category }}</td>
-            <td style="text-align: center;">{{ course.price }}</td>
-            <td style="text-align: center;">{{ course.students_qty }}</td>
-            <td style="text-align: center;"><button class="btn-dark">Buy</button></td>
+            <td style="text-align: center;"><a href={% url "my_first_web:single_course" course.id %}>{{ course.title }}</a></td>
+            <td>{{ course.category }}</td>
+            <td>{{ course.price }}</td>
+            <td>{{ course.students_qty }}</td>
+            <td><button class="btn-dark">Buy</button></td>
         </tr>
         {% endfor %}
     </tbody>
