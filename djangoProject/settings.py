@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'my_first_web.apps.MyFirstWebConfig',
+    'api.apps.ApiConfig',
+    'tastypie'
 ]
 
 MIDDLEWARE = [

@@ -8,7 +8,7 @@ from . import models
 
 def index(request):
     courses = models.Course.objects.all()
-    return render(request, 'my_first_web/courses.html', {'courses':courses})
+    return render(request, 'my_first_web/courses.html', {'courses': courses})
 
 
 def single_course(request, course_id):

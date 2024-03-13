@@ -16,23 +16,73 @@ tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
 name = "django"
-version = "5.0.2"
+version = "4.1"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 optional = false
-python-versions = ">=3.10"
+python-versions = ">=3.8"
 files = [
-    {file = "Django-5.0.2-py3-none-any.whl", hash = "sha256:56ab63a105e8bb06ee67381d7b65fe6774f057e41a8bab06c8020c8882d8ecd4"},
-    {file = "Django-5.0.2.tar.gz", hash = "sha256:b5bb1d11b2518a5f91372a282f24662f58f66749666b0a286ab057029f728080"},
+    {file = "Django-4.1-py3-none-any.whl", hash = "sha256:031ccb717782f6af83a0063a1957686e87cb4581ea61b47b3e9addf60687989a"},
+    {file = "Django-4.1.tar.gz", hash = "sha256:032f8a6fc7cf05ccd1214e4a2e21dfcd6a23b9d575c6573cacc8c67828dbe642"},
 ]
 
 [package.dependencies]
-asgiref = ">=3.7.0,<4"
-sqlparse = ">=0.3.1"
+asgiref = ">=3.5.2,<4"
+sqlparse = ">=0.2.2"
 tzdata = {version = "*", markers = "sys_platform == \"win32\""}
 
 [package.extras]
 argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
+
+[[package]]
+name = "django-tastypie"
+version = "0.14.6"
+description = "A flexible & capable API layer for Django."
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-tastypie-0.14.6.tar.gz", hash = "sha256:7f16928ffa5b1b390edd81fa0c15a239cca7fc1134d440ecaa2040b5edc549b8"},
+]
+
+[package.dependencies]
+python-dateutil = ">=2.1"
+python-mimeparse = ">=0.1.4,<1.5 || >1.5"
+
+[[package]]
+name = "python-dateutil"
+version = "2.9.0.post0"
+description = "Extensions to the standard Python datetime module"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+files = [
+    {file = "python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"},
+    {file = "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"},
+]
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+name = "python-mimeparse"
+version = "1.6.0"
+description = "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges."
+optional = false
+python-versions = "*"
+files = [
+    {file = "python-mimeparse-1.6.0.tar.gz", hash = "sha256:76e4b03d700a641fd7761d3cd4fdbbdcd787eade1ebfac43f877016328334f78"},
+    {file = "python_mimeparse-1.6.0-py2.py3-none-any.whl", hash = "sha256:a295f03ff20341491bfe4717a39cd0a8cc9afad619ba44b77e86b0ab8a2b8282"},
+]
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+files = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
 
 [[package]]
 name = "sqlparse"
@@ -64,4 +114,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "7ba8d67909f3b6fc6b6984f1cbc3e06cda73797073716c2b65790dcf5a6257ca"
+content-hash = "d5c4cd122d0b6395707855b1b02920b175365ad7393649a663ad91ffc0576a02"

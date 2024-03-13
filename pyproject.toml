@@ -1,4 +1,4 @@
-pi[tool.poetry]
+[tool.poetry]
 name = "djangoproject"
 version = "0.1.0"
 description = ""
@@ -7,7 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "^5.0.2"
+django = "4.1"
+django-tastypie = "^0.14.6"
 
 
 [build-system]
