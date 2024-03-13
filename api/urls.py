@@ -8,6 +8,6 @@ api.register(CourseResource())
 api.register(CategoryResource())
 
 
-url_patters=[
+urlpatterns=[
     path('', include(api.urls), name='index')
 ]
