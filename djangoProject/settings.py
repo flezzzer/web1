@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'my_first_web.apps.MyFirstWebConfig',
     'api.apps.ApiConfig',
-    'tastypie',
     'homepage.apps.HomepageConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

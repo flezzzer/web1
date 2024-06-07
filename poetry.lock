@@ -35,6 +35,16 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-restframework"
+version = "0.0.1"
+description = "django-restframework"
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-restframework-0.0.1.tar.gz", hash = "sha256:2bec9265463693ada558ad9a58c31f6f3de005a932fbfeaadf983c5c9f3b7058"},
+]
+
+[[package]]
 name = "django-tastypie"
 version = "0.14.6"
 description = "A flexible & capable API layer for Django."
@@ -47,6 +57,20 @@ files = [
 [package.dependencies]
 python-dateutil = ">=2.1"
 python-mimeparse = ">=0.1.4,<1.5 || >1.5"
+
+[[package]]
+name = "djangorestframework"
+version = "3.15.1"
+description = "Web APIs for Django, made easy."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "djangorestframework-3.15.1-py3-none-any.whl", hash = "sha256:3ccc0475bce968608cf30d07fb17d8e52d1d7fc8bfe779c905463200750cbca6"},
+    {file = "djangorestframework-3.15.1.tar.gz", hash = "sha256:f88fad74183dfc7144b2756d0d2ac716ea5b4c7c9840995ac3bfd8ec034333c1"},
+]
+
+[package.dependencies]
+django = ">=3.0"
 
 [[package]]
 name = "python-dateutil"
@@ -114,4 +138,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d5c4cd122d0b6395707855b1b02920b175365ad7393649a663ad91ffc0576a02"
+content-hash = "c72f3db78bd59c60876b43e4275800f194d1c2de7b93ce3b3ca36435e9d75820"

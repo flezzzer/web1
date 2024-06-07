@@ -1,13 +1,11 @@
-from api.models import CourseResource, CategoryResource
-from tastypie.api import Api
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from.views import CourseViewSet, CategoryViewSet
 
-api = Api(api_name='v1')
+router = DefaultRouter()
+router.register(r'courses', CourseViewSet)
+router.register(r'categories', CategoryViewSet)
 
-api.register(CourseResource())
-api.register(CategoryResource())
-
-
-urlpatterns=[
-    path('', include(api.urls), name='index')
+urlpatterns = [
+    path('', include(router.urls)),
 ]
