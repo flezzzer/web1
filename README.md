@@ -1,12 +1,16 @@
-![image](https://github.com/flezzzer/web1/assets/141737861/d73fbad7-a9d0-4fdc-a77f-59655d02a0bb)
-![image](https://github.com/flezzzer/web1/assets/141737861/5f5518cb-066e-4967-b48f-4d64389c97f4)
-![image](https://github.com/flezzzer/web1/assets/141737861/0c6e4ed7-10d4-4c81-b21f-4a11f8d6858c)
-![image](https://github.com/flezzzer/web1/assets/141737861/8cfedf79-e8d3-4917-9d80-d45a358af62d)
-![image](https://github.com/flezzzer/web1/assets/141737861/b7c7dc2a-7afa-4a4d-9954-a219ad83ef2a)
+interface web:
+![image](https://github.com/flezzzer/web1/assets/141737861/60fb2d5f-3df7-442f-9df6-dad61215e3e6)
+![image](https://github.com/flezzzer/web1/assets/141737861/59334414-49c6-42e8-ba69-431f9a56583b)
+![image](https://github.com/flezzzer/web1/assets/141737861/b893bd5a-74fc-469b-911f-caab83f26a10)
+
+api(DRF):
+![image](https://github.com/flezzzer/web1/assets/141737861/7983f839-e5ca-48fc-a748-cf8bc4817994)
+![image](https://github.com/flezzzer/web1/assets/141737861/d322f217-ebf3-4292-a4b5-759972491cf2)
+![image](https://github.com/flezzzer/web1/assets/141737861/955209a0-6a7b-47fe-bbe5-7742cf4f9cb6)
+![image](https://github.com/flezzzer/web1/assets/141737861/c4f84647-9585-4407-ae1b-1f7f2f866c4f)
+tg_bot (flask):
+![image](https://github.com/flezzzer/web1/assets/141737861/f88f00f7-88c3-44b9-89f3-de328fc9915e)
 
 
-![image](https://github.com/flezzzer/web1/assets/141737861/4242ce85-7e36-421c-aed3-33a07644eb9b)
 
-[json for courses.json](https://github.com/flezzzer/web1/files/14856788/json.for.courses.json)
-![image](https://github.com/flezzzer/web1/assets/141737861/651f5a56-bc35-412c-95ab-b2ecb5a10178)
 
